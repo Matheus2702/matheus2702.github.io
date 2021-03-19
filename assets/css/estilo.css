@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+body {
+    background-color:#202121;
+    }
+
+ .container {
+    max-width: 1000px;    
+    background-color:white;
+    margin: auto;
+ }
+
+header{
+    max-width: 800px;
+    height:200px;
+    margin:auto;
+}
+.faixatop {
+    padding-top:40px;    
+
+}
+.faixa {
+    max-width: 800px;
+    height:30px;
+    margin:auto;    
+}
+
+.faixa1 {
+    width: 6.25%;
+    height: 30px;
+    background-color: black;
+    float:left;
+    
+}   
+
+.faixa2 {
+    width:2.5%;
+    height:30px;
+    background-color:red;
+    float:left;
+}
+
+.faixa3 {
+    width:91.25%;
+    height:30px;
+    background-color:black;
+    float:left;    
+}
+
+.logo {
+    margin-top: 10px;
+    width: 200px;
+    text-align:left;
+    float:left;
+}
+
+.title {
+    float:left;
+    margin-top:20px;
+    margin-left: 40px;
+    text-align:center;
+}
+
+section {
+    max-width: 800px;
+    margin:auto;
+
+}
+
+section h5 {
+    font-family: 'Franklin Gothic Medium';
+    padding-top:10px;
+    font-weight: bold;
+    border-bottom:3px solid rgb(204,0,0);
+    font-size: 16px;
+}
+section p {
+    font-size: 15px;
+    padding:30px;
+    padding-top:10px;
+    text-align: justify;
+}
+
+section ul {
+    padding:40px;
+    padding-top:5px;
+}
+
+section li {
+    padding-top:5px;
+}
+
+.lista1 {
+    float:left;
+}
+
+.texto {
+    padding-top:10px;
+    padding-left:20px;
+}
+
+footer {
+    max-width: 1000px;
+    height: 50px;
+    margin:auto;
+    background-color: white;
+}
+
+.lista3 {
+    display: none;
+}
+@media screen and (max-width:650px){
+    .logo {
+        width: 120px;        
+    }           
+    .lista2 {
+        display: none;
+    }
+    .lista3 {
+        display:block;
+    }
+    
+}
